@@ -1,0 +1,277 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#lheader
+{
+   background-color: #27AE60;
+   background-image: none;
+   border-bottom: 4px solid #B33771;
+}
+#wb_icon
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wstitle
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid transparent;
+   color: #341F97;
+   font-family: "Siyam Rupali ANSI";
+   font-weight: bold;
+   font-size: 64px;
+   text-align: center;
+   margin: 0;
+}
+#wstitle span
+{
+   display: block;
+   height: 64px;
+   margin: 4px 0px 4px 0px;
+}
+.signinbtn
+{
+   border: 1px solid #FBFBFB;
+   background-color: #FFA500;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 12px;
+   margin: 0;
+   position:absolute;
+   left:1440px;
+   top:6px;
+   width:75px;
+   height:24px;
+   z-index:3;
+}
+.signinbtn:hover{
+   background-color: #f44336;
+}
+#wb_contact 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_contact div
+{
+   text-align: left;
+}
+#wb_c_icon
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_c_icon:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+}
+#c_icon
+{
+   height: 24px;
+   width: 30px;
+}
+.c_icon
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Material Icons";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.c_icon:before
+{
+   content: "\e61d";
+}
+#c_icon i
+{
+   color: #000000;
+   display: inline-block;
+   font-size: 24px;
+   line-height: 24px;
+   vertical-align: middle;
+   width: 23px;
+}
+#wb_c_icon:hover i
+{
+   color: #337AB7;
+}
+#wbmoto
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid transparent;
+   color: #CAD3C8;
+   font-family: "Siyam Rupali ANSI";
+   font-weight: normal;
+   font-size: 24px;
+   text-align: center;
+   margin: 0;
+}
+#wbmoto span
+{
+   display: block;
+   height: 24px;
+   margin: 8px 0px 8px 0px;
+}
+
+@font-face
+{
+   font-family: "Material Icons";
+   font-style: normal;
+   font-weight: 400;
+   src: url(MaterialIcons-Regular.eot);
+   src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url(MaterialIcons-Regular.woff2) format('woff2'),
+        url(MaterialIcons-Regular.woff) format('woff'),
+        url(MaterialIcons-Regular.ttf) format('truetype');
+}
+.material-icons
+{
+   font-family: "Material Icons";
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+   display: inline-block;
+   line-height: 1;
+   text-transform: none;
+   letter-spacing: normal;
+   word-wrap: normal;
+   white-space: nowrap;
+   direction: ltr;
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+   -moz-osx-font-smoothing: grayscale;
+   font-feature-settings: "liga";
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+h1, .h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h2, .h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h3, .h3
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 24px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h4, .h4
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h5, .h5
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h6, .h6
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 16px;
+   text-decoration: none;
+   color: #2E74B5;
+   background-color: transparent;
+}
+
